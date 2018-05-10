@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74adf71-96ff-4e63-974f-fecd02b7eb05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,35 +16,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/package.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Landing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise/src/routes/Landing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/.gitignore">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testSetup.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise/src/components/testSetup.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -79,6 +72,7 @@
         <option value="$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/SingUp.js" />
         <option value="$PROJECT_DIR$/exercise/package.json" />
         <option value="$PROJECT_DIR$/exercise/src/.eslintrc" />
+        <option value="$PROJECT_DIR$/exercise/testSetup.js" />
       </list>
     </option>
   </component>
@@ -97,10 +91,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="5" />
-    <option name="y" value="52" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="2" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +118,20 @@
               <item name="react-exercise-master" type="cbb8eebc:String" user="react-exercise-master" />
               <item name="exercise" type="cbb8eebc:String" user="exercise" />
               <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="react-exercise-master" type="cbb8eebc:String" user="react-exercise-master" />
+              <item name="exercise" type="cbb8eebc:String" user="exercise" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="components" type="cbb8eebc:String" user="components" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="react-exercise-master" type="cbb8eebc:String" user="react-exercise-master" />
+              <item name="exercise" type="cbb8eebc:String" user="exercise" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="routes" type="cbb8eebc:String" user="routes" />
             </path>
           </expand>
           <select />
@@ -178,6 +185,7 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\horgo\AppData\Roaming\npm\node_modules\eslint" />
     <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/exercise/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -199,6 +207,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="testSetup.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="testSetup.js" working-dir="$PROJECT_DIR$/exercise" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.testSetup.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -217,29 +233,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7078000" />
+    <option name="totallyTimeSpent" value="8237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="42" width="1551" height="839" extended-state="1" />
+    <frame x="2" y="0" width="1552" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14703968" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120286085" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14703968" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,33 +275,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/Button.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Landing.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/HomeContent.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Home.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/LogIn.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/TopBar.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/SingUp.js" />
-    <entry file="file://$PROJECT_DIR$/exercise/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="493">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -288,6 +291,82 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/Button.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Landing.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/HomeContent.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Home.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/LogIn.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/TopBar.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/SingUp.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/.eslintrc" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/routes/Landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/Button.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Landing.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/HomeContent.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Home.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/LogIn.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/TopBar.js" />
+    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/SingUp.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/.eslintrc" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/testSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/testSetup.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
