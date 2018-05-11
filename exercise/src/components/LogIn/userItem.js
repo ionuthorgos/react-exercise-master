@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import  UserActions   from 'Login/userActions';
 
 class UserItem extends React.Component {
 

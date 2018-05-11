@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Button from './Button';
-import UsersContainer from 'LogIn/usersContainer';
+import UsersContainer from "./LogIn/usersContainer";
 
 export default class HomeContent extends Component {
     constructor(props) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import  UserActions   from 'LogIn/userActions';
-import UserItem from 'LogIn/userItem';
+import  UserActions   from './LogIn/userActions';
+import UserItem from './LogIn/userItem';
 // import { Rx } from "rxjs";
 import * as Rx from 'rxjs/Rx';
 
