@@ -1,15 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class UserItem extends React.Component {
 
+class UserItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             user: props.user
         };
-    }
-
+    };
     createItem = (item) => {
         return ;
     };
@@ -23,17 +22,11 @@ class UserItem extends React.Component {
                 {/*<div>*/}
                 {/*<button onClick={this.getUsers}>get Users</button>*/}
                 {/*</div>*/}
-
-
             </div>
 
 
         )
     }
 }
-
-// Users.propTypes = {
-//     getUsersFromContainer: PropTypes.func.isRequired
-// };
 
 export default UserItem;

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import  UserActions   from './LogIn/userActions';
-import UserItem from './LogIn/userItem';
+import  UserActions   from './logIn/userActions';
+import UserItem from './logIn/userItem';
 // import { Rx } from "rxjs";
 import * as Rx from 'rxjs/Rx';
 
@@ -10,8 +10,8 @@ class Users extends React.Component {
     constructor(props) {
         super(props);
         // debugger;
-        // this.getUsers = this.getUsers.bind(this);
-        // this.setUsers = this.setUsers.bind(this);
+        this.getUsers = this.getUsers.bind(this);
+        this.setUsers = this.setUsers.bind(this);
 
         // this.getUsersObservable = this.getUsersObservable.bind(this);
 
@@ -28,7 +28,7 @@ class Users extends React.Component {
         );
     }
 
-    state = {count: 0}
+    state = {count: 0};
 
     setUsers(x) {
         this.setState(
@@ -38,14 +38,13 @@ class Users extends React.Component {
             });
     }
 
-    getUsers = () => {
-        // this.userActions.getTestUsers();
-        // UserActions.getTestUsers();
+   getUsers = () => {
+        this.props.UserActions.getTestUsers();
         this.props.getUsersFromContainer();
     }
 
     getUsersPromise = () => {
-        // this.userActions.getTestUsers();
+        this.userActions.getTestUsers();
         // UserActions.getTestUsers();
         UserActions.getUsersPromise()
             .then((response)=>{
@@ -88,19 +87,18 @@ class Users extends React.Component {
     };
 
     render() {
-        const list = this.state.users;
+        debugger;
+        const {users} = this.props.usersStore;
         return (
             <div>
                 <h2>Users</h2>
                 <div>
-                    <button onClick={this.getUsers}>get Users</button>
+                    <button onClick={this.props.getUsersFromContainer}>get Users</button>
                 </div>
-
-                {list &&
+                {users &&
                 <ul>
                     {
-
-                        list.map((item, index) => (
+                        users.map((item, index) => (
                             <UserItem
                                 key={index}
                                 user={item}
@@ -110,8 +108,6 @@ class Users extends React.Component {
                 </ul>
                 }
             </div>
-
-
         )
     }
 }

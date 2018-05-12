@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autobind": "^1.0.3",
+    "axios": "^0.18.0",
+    "connect": "^3.6.6",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
+    "redux-thunk": "^2.2.0",
     "rxjs-compat": "^6.1.0",
     "vim": "^0.1.0"
   },

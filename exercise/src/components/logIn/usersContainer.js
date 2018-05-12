@@ -1,17 +1,18 @@
 import { connect } from 'react-redux';
-import Users from '../login.component';
+import Users from '../users';
 import  UserActions   from './userActions';
 
-const mapStateToProps = state => ({
-    ffffffffffff: 88,
+const mapStateToProps = store => ({
+   ffffffffffff: 88,
     a: function () {
         return 'xxx'
     },
-    users: state.user.users
+    usersStore: store.userReducer
 });
 
 const mapDispatchToProps = dispatch => ({
-    getUsersFromContainer: () => dispatch(UserActions.getUsers())
+
+    getUsersFromContainer : () => dispatch(UserActions.getUsers())
 });
 
 const UsersContainer = connect(

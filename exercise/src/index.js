@@ -9,7 +9,7 @@ import { applyMiddleware, combineReducers, createStore } from "redux";
 import thunk from "redux-thunk";
 import { Provider } from 'react-redux';
 
-import userReducer  from './components/LogIn/userReducer';
+import userReducer  from './components/logIn/userReducer';
 
 const logger = (store) => (next) => (action) =>{
     console.log("action fired", action);

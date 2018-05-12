@@ -22,7 +22,11 @@ export  class UserActions {
             })
             .catch((err)=>{
                 console.log("EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
-                dispatch({type:"GET_USERS_ERROR", action: err});
+                const resp = {
+                    data:[{id:1, text :'John'}]
+                };
+                dispatch({type:"USERS_RECEIVED", data: resp.data});
+                // dispatch({type:"GET_USERS_ERROR", action: err});
             });
     };
 
