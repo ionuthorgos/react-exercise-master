@@ -7,6 +7,22 @@ export  class UserActions {
 
     }
 
+    userLoogedIn = (userData) => (dispatch) => {
+        const storeData = {
+            type: "USER_LOGGED_IN",
+            data: userData
+        };
+        dispatch(storeData);
+    }
+
+    userLogedOut = () => (dispatch) => {
+        const storeData = {
+            type: "USER_LOGGED_OUT",
+        };
+        dispatch(storeData);
+    }
+
+
     getTestUsers()
     {
         return [{a:1}];

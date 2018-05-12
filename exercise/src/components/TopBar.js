@@ -3,7 +3,34 @@ import {Link} from 'react-router-dom';
 import Button from './Button';
 
 export default class TopBar extends Component {
-  state: { loggedIn: false }
+  constructor(props)
+  {
+      debugger;
+      super(props);
+      this.state = {
+          loggedUser:  this.props.usersStore.loggedUser
+      };
+      this.login = this.login.bind(this);
+  }
+
+    componentWillReceiveProps(nextProps) {
+        console.log(nextProps);
+        this.setState(
+            {
+                loggedUser: nextProps.usersStore.loggedUser
+            }
+        );
+    }
+
+
+    logout = () => {
+        this.props.logout(null);
+   }
+
+    login = () => {
+        this.props.login({name:'John'});
+    }
+
   render() {
     return (
       <header style={{
@@ -27,8 +54,15 @@ export default class TopBar extends Component {
         </div>
         <div style={{float: 'left', color: 'white', flex: 1}} />
         <div style={{float: 'right', paddingRight: 20}}>
-          <Button style={{backgroundColor: 'blue', color: 'white'}}>Login</Button>
-          <Button style={{backgroundColor: 'red', color: 'white'}}>Signup</Button>
+            {this.state.loggedUser &&
+                <span style={{backgroundColor: 'blue', color: 'white'}} onClick={this.logout} >Logout</span>
+            }
+
+            {!this.state.loggedUser &&
+            <span style={{backgroundColor: 'blue', color: 'white'}} onClick={this.login}>Login</span>
+            }
+
+            <button style={{backgroundColor: 'red', color: 'white'}}>Signup</button>
         </div>
       </header>
     );

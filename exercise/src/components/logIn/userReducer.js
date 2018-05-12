@@ -10,6 +10,17 @@ function userReducer(state = initialState, action) {
                 ...state,
                 users: action.data
             };
+        case 'USER_LOGGED_OUT':
+            return {
+                ...state,
+                loggedUser: null
+            }
+        case 'USER_LOGGED_IN':{
+            return {
+                ...state,
+                loggedUser: action.data
+            }
+        }
 
         default:
             return state;
