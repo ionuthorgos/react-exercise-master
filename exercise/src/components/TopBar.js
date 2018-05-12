@@ -55,14 +55,15 @@ export default class TopBar extends Component {
         <div style={{float: 'left', color: 'white', flex: 1}} />
         <div style={{float: 'right', paddingRight: 20}}>
             {this.state.loggedUser &&
-                <span style={{backgroundColor: 'blue', color: 'white'}} onClick={this.logout} >Logout</span>
+                <button style={{backgroundColor: 'red', color: 'white'}} onClick={this.logout} >Logout</button>
             }
 
             {!this.state.loggedUser &&
-            <span style={{backgroundColor: 'blue', color: 'white'}} onClick={this.login}>Login</span>
+            <button style={{backgroundColor: 'blue', color: 'white'}} onClick={this.login}>Login</button>
             }
-
+            {!this.state.loggedUser &&
             <button style={{backgroundColor: 'red', color: 'white'}}>Signup</button>
+            }
         </div>
       </header>
     );

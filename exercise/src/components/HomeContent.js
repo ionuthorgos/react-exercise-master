@@ -31,11 +31,12 @@ export default class HomeContent extends Component {
     return (
       <div>
           {this.state.loggedUser &&
-          <span  onClick={this.logout} >Logout</span>
+
+          <button style={{backgroundColor: 'red', color: 'white'}} onClick={this.logout}>Logout</button>
           }
 
           {!this.state.loggedUser &&
-          <span onClick={this.login}>Login</span>
+          <button style={{backgroundColor: 'blue', color: 'white'}} onClick={this.login}>Login</button>
           }
           <UsersContainer/>
       </div>
