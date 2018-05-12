@@ -3,22 +3,40 @@ import Button from './Button';
 import UsersContainer from "./logIn/usersContainer";
 
 export default class HomeContent extends Component {
-    constructor(props) {
-        // debugger;
+    constructor(props)
+    {
+        debugger;
         super(props);
         this.state = {
-            test:'hi'
+            loggedUser:  this.props.usersStore.loggedUser
         };
-        this.setVolumeValue = this.setVolumeValue.bind(this);
+        this.login = this.login.bind(this);
     }
-    setVolumeValue(val) {
-        debugger;
-        console.log(val);
+
+    componentWillReceiveProps(nextProps) {
+        console.log(nextProps);
+        this.setState(
+            {
+                loggedUser: nextProps.usersStore.loggedUser
+            }
+        );
+    }
+    logout = () => {
+        this.props.logout(null);
+    }
+    login = () => {
+        this.props.login({name:'John'});
     }
   render() {
     return (
       <div>
-        <Button>Login</Button>
+          {this.state.loggedUser &&
+          <span  onClick={this.logout} >Logout</span>
+          }
+
+          {!this.state.loggedUser &&
+          <span onClick={this.login}>Login</span>
+          }
           <UsersContainer/>
       </div>
     );
