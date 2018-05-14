@@ -18,7 +18,7 @@ export default class Button extends Component {
 
     click = () => {
     	this.props.click();
-	}
+	};
 
 	render() {
 		return (

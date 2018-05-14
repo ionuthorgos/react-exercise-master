@@ -5,7 +5,7 @@ import Button from './Button';
 export default class TopBar extends Component {
   constructor(props)
   {
-      debugger;
+      // debugger;
       super(props);
       this.state = {
           loggedUser:  this.props.usersStore.loggedUser

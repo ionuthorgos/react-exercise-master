@@ -12,7 +12,8 @@ const mapStateToProps = store => ({
 
 const mapDispatchToProps = dispatch => ({
     login : (data) => dispatch(UserActions.userLoogedIn(data)),
-    logout : () => dispatch(UserActions.userLogedOut())
+    logout : () => dispatch(UserActions.userLogedOut()),
+    getUsersFromContainer : () => dispatch(UserActions.getUsers())
 });
 
 const HomeContainer  = connect(

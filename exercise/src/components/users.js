@@ -9,13 +9,12 @@ class Users extends React.Component {
 
     constructor(props) {
         super(props);
-        // debugger;
+        this.state = {
+            Users: this.props.users,
+
+        };
         this.getUsers = this.getUsers.bind(this);
         this.setUsers = this.setUsers.bind(this);
-
-        // this.getUsersObservable = this.getUsersObservable.bind(this);
-
-
     }
 
     componentWillReceiveProps(nextProps) {
@@ -39,13 +38,14 @@ class Users extends React.Component {
     }
 
    getUsers = () => {
-        this.props.UserActions.getTestUsers();
+        // no, acuma pune getUsersFromContainer in containeru de home si transmite-l la componenta de users ca sa o poti apela
+       // acuma this.props nu contine aceaste functie; fa sa o contina
+       // :)
         this.props.getUsersFromContainer();
-    }
+    };
 
     getUsersPromise = () => {
         this.userActions.getTestUsers();
-        // UserActions.getTestUsers();
         UserActions.getUsersPromise()
             .then((response)=>{
                 console.log(response);
@@ -59,7 +59,7 @@ class Users extends React.Component {
             .catch((err)=>{
                 console.log("EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
             });
-    }
+    };
 
     getUsersObservable = () => {
         var result = Rx.Observable.fromPromise(UserActions.getUsersPromise());
@@ -69,26 +69,15 @@ class Users extends React.Component {
                 this.setUsers(x);
             } ,
             e => console.error(e));
-
-
-        // result.subscribe = (x) =>(
-        //     x => {
-        //         console.log(x);
-        //         this.setUsers(x);
-        //     } ,
-        //         e => console.error(e));
-
-
-    }
+    };
 
 
     createItem = (item) => {
         return <li key={item.id}>{item.text}</li>;
     };
-
     render() {
         debugger;
-        const {users} = this.props.usersStore;
+        const users = this.props.userlist;
         return (
             <div>
                 <h2>Users</h2>
@@ -113,7 +102,8 @@ class Users extends React.Component {
 }
 
 // Users.propTypes = {
-//     getUsersFromContainer: PropTypes.func.isRequired
+//     // getUsersFromContainer: PropTypes.func.isRequired,
+//     userlist: PropTypes.Array.isRequired
 // };
 
 export default Users;

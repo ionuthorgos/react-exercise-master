@@ -11,7 +11,6 @@ const mapStateToProps = store => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-
     getUsersFromContainer : () => dispatch(UserActions.getUsers())
 });
 
