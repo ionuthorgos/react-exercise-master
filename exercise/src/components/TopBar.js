@@ -11,6 +11,8 @@ export default class TopBar extends Component {
           loggedUser:  this.props.usersStore.loggedUser
       };
       this.login = this.login.bind(this);
+      this.logout = this.logout.bind(this);
+      this.signup = this.signup.bind(this);
   }
 
     componentWillReceiveProps(nextProps) {
@@ -21,15 +23,17 @@ export default class TopBar extends Component {
             }
         );
     }
-
+    signup = () => {
+      debugger;
+    };
 
     logout = () => {
         this.props.logout(null);
-   }
+   };
 
     login = () => {
         this.props.login({name:'John'});
-    }
+    };
 
   render() {
     return (
@@ -55,14 +59,13 @@ export default class TopBar extends Component {
         <div style={{float: 'left', color: 'white', flex: 1}} />
         <div style={{float: 'right', paddingRight: 20}}>
             {this.state.loggedUser &&
-                <button style={{backgroundColor: 'red', color: 'white'}} onClick={this.logout} >Logout</button>
-            }
-
-            {!this.state.loggedUser &&
-            <button style={{backgroundColor: 'blue', color: 'white'}} onClick={this.login}>Login</button>
+            <Button style={{backgroundColor: 'red', color: 'white'}} click={this.logout} >Logout</Button>
             }
             {!this.state.loggedUser &&
-            <button style={{backgroundColor: 'red', color: 'white'}}>Signup</button>
+            <Button style={{backgroundColor: 'blue', color: 'white'}} click={this.login}>Login</Button>
+            }
+            {!this.state.loggedUser &&
+            <Button style={{backgroundColor: 'red', color: 'white'}} click={this.signup}>Signup</Button>
             }
         </div>
       </header>

@@ -11,6 +11,10 @@ export default class HomeContent extends Component {
             loggedUser:  this.props.usersStore.loggedUser
         };
         this.login = this.login.bind(this);
+        this.logout = this.logout.bind(this);
+    }
+    myCallback = (dataFromChild) => {
+        this.setState({ listDataFromChild: dataFromChild });
     }
 
     componentWillReceiveProps(nextProps) {
@@ -27,16 +31,18 @@ export default class HomeContent extends Component {
     login = () => {
         this.props.login({name:'John'});
     }
+
   render() {
     return (
       <div>
           {this.state.loggedUser &&
 
-          <button style={{backgroundColor: 'red', color: 'white'}} onClick={this.logout}>Logout</button>
+          <Button style={{backgroundColor: 'red', color: 'white'}} click={this.logout}>Logout</Button>
+
           }
 
           {!this.state.loggedUser &&
-          <button style={{backgroundColor: 'blue', color: 'white'}} onClick={this.login}>Login</button>
+          <Button style={{backgroundColor: 'blue', color: 'white'}} click={this.login}>Login</Button>
           }
           <UsersContainer/>
       </div>

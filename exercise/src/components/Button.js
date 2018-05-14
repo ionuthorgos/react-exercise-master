@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 const styles = {
 	button: {
@@ -7,13 +8,25 @@ const styles = {
 		padding: 8
 	}
 };
+
 export default class Button extends Component {
+    constructor(props)
+    {
+        super(props);
+
+    }
+
+    click = () => {
+    	this.props.click();
+	}
+
 	render() {
 		return (
-			<button style={{...styles.button, ...this.props.style}}>
+			<button style={{...styles.button, ...this.props.style}} onClick={this.click}>
 				{this.props.children}
 			</button>
 		);
 	}
 }
+
 
