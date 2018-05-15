@@ -1,12 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
+import EditUsers from "../../routes/EditUsers";
 
-const buttonColor={
-    buttonStyle:{
-        background: 'hsl(0, 0%, 86%)',
 
-    }
-}
 
 class UserItem extends React.Component {
     constructor(props) {
@@ -26,9 +23,10 @@ class UserItem extends React.Component {
 
             <div>
                 <li key={user.userName.title}>{user.userName.first} {user.userName.last}
-                    <button style={{...buttonColor.buttonStyle, ...this.props.style}}
+                    <Link to="../EditUsers">
+                        <EditUsers/>
+                    </Link>
 
-                        type="button" className="btn btn-primary">Details Users</button>
                 </li>
 
                 {/*<div>*/}
