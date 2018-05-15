@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
-import EditUsers from "../../routes/EditUsers";
-
+import UserDatail from "../UserDatail";
+import Link from "react-router-dom/es/Link";
 
 
 class UserItem extends React.Component {
@@ -15,18 +14,17 @@ class UserItem extends React.Component {
     createItem = (item) => {
         return ;
     };
-
+    clickEvent = () => {
+        return <UserDatail/>;
+    }
     render() {
         const { user } = this.state;
        // debugger;
         return (
 
             <div>
-                <li key={user.userName.title}>{user.userName.first} {user.userName.last}
-                    <Link to="../EditUsers">
-                        <EditUsers/>
-                    </Link>
-
+                <li key={user.userName.title}>First Name: <b>{user.userName.first}</b> <br />Last Name: <b>{user.userName.last}</b>
+                    <Link to={`/users/${user.id}`}>go</Link>
                 </li>
 
                 {/*<div>*/}

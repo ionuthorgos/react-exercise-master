@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Button from './Button';
-import Users  from './users';
+import UserList  from './UserList';
 
 
 
@@ -43,7 +43,7 @@ export default class HomeContent extends Component {
           {!this.state.loggedUser &&
           <Button style={{backgroundColor: 'blue', color: 'white'}} click={this.login}>Login</Button>
           }
-          <Users userlist={this.props.usersStore.users} getUsersFromContainer={this.props.getUsersFromContainer}/>
+          <UserList userlist={this.props.usersStore.users} getUsersFromContainer={this.props.getUsersFromContainer}/>
       </div>
     );
   }

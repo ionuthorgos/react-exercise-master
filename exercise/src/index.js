@@ -10,6 +10,7 @@ import thunk from "redux-thunk";
 import { Provider } from 'react-redux';
 
 import userReducer  from './components/logIn/userReducer';
+import UserDatail from "./components/UserDatail";
 
 const logger = (store) => (next) => (action) =>{
     console.log("action fired", action);
@@ -29,6 +30,7 @@ ReactDOM.render((
         <div>
           <Route exact path="/" component={Landing}/>
           <Route path="/home" component={Home}/>
+            <Route path="/users/:userId" component={UserDatail} />
         </div>
       </BrowserRouter>
     </Provider>
