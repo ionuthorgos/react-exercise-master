@@ -38,9 +38,6 @@ class Users extends React.Component {
     }
 
    getUsers = () => {
-        // no, acuma pune getUsersFromContainer in containeru de home si transmite-l la componenta de users ca sa o poti apela
-       // acuma this.props nu contine aceaste functie; fa sa o contina
-       // :)
         this.props.getUsersFromContainer();
     };
 
@@ -73,7 +70,7 @@ class Users extends React.Component {
 
 
     createItem = (item) => {
-        return <li key={item.id}>{item.text}</li>;
+        return <li key={item.id}>{item.name}</li>;
     };
     render() {
         debugger;
@@ -90,7 +87,7 @@ class Users extends React.Component {
                         users.map((item, index) => (
                             <UserItem
                                 key={index}
-                                user={item}
+                                userName={item.name}
                             />
                         ))
                     }

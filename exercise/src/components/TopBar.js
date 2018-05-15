@@ -2,6 +2,15 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Button from './Button';
 
+
+const color={
+    userStyle:{
+        color: 'black',
+        fontSize: '25px',
+        background: 'hsl(0, 0%, 86%)',
+    }
+}
+
 export default class TopBar extends Component {
   constructor(props)
   {
@@ -36,40 +45,50 @@ export default class TopBar extends Component {
     };
 
   render() {
-    return (
-      <header style={{
-        height:          48,
-        width:           '100%',
-        backgroundColor: 'rgb(102,63,180)',
-        color:           'white',
-        padding:         '6px 10px',
-        display:         'flex',
-        flexDirection:   'row',
-        alignItems:      'center'
+      const { name } = this.props.login;
+      const initials = name ? name.substring(0,2).toUpperCase(): '';
+
+      return <header style={{
+          height: 48,
+          width: '100%',
+          backgroundColor: 'rgb(102,63,180)',
+          color: 'white',
+          padding: '6px 10px',
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center'
       }}
       >
-        <div style={styles.logo}>
-          <Link to="/">
-            <img alt={'logo'} style={{ maxHeight: 40, flex: 1}} src="favicon-196x196.png"/>
-          </Link>
-        </div>
-        <div>
-          {'Modus Create'}
-        </div>
-        <div style={{float: 'left', color: 'white', flex: 1}} />
-        <div style={{float: 'right', paddingRight: 20}}>
-            {this.state.loggedUser &&
-            <Button style={{backgroundColor: 'red', color: 'white'}} click={this.logout} >Logout</Button>
-            }
-            {!this.state.loggedUser &&
-            <Button style={{backgroundColor: 'blue', color: 'white'}} click={this.login}>Login</Button>
-            }
-            {!this.state.loggedUser &&
-            <Button style={{backgroundColor: 'red', color: 'white'}} click={this.signup}>Signup</Button>
-            }
-        </div>
-      </header>
-    );
+          <div style={styles.logo}>
+              <Link to="/">
+                  <img alt={'logo'} style={{maxHeight: 40, flex: 1}} src="favicon-196x196.png"/>
+              </Link>
+          </div>
+          <div>
+              {'Modus Create'}
+          </div>
+          <div style={{float: 'left', color: 'white', flex: 1}}/>
+          <div style={{float: 'right', paddingRight: 20}}>
+              {this.state.loggedUser &&
+              <div>
+
+
+                    <span style={{...color.userStyle, ...this.props.style}}>
+                        {initials}
+                    </span>
+
+
+                  <Button style={{backgroundColor: 'red', color: 'white'}} click={this.logout}>Logout</Button>
+              </div>
+              }
+              {!this.state.loggedUser &&
+              <Button style={{backgroundColor: 'blue', color: 'white'}} click={this.login}>Login</Button>
+              }
+              {!this.state.loggedUser &&
+              <Button style={{backgroundColor: 'red', color: 'white'}} click={this.signup}>Signup</Button>
+              }
+          </div>
+      </header>;
   } 
 }
 

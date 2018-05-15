@@ -33,7 +33,7 @@ export default class HomeContent extends Component {
         this.props.login({name:'John'});
     };
   render() {
-    return (
+    return(
       <div>
           {this.state.loggedUser &&
 
