@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="707" />
+    <option name="width" value="1214" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="RunManager" selected="Node.js.userReducer.js">
+    <configuration name="testSetup.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="testSetup.js" working-dir="$PROJECT_DIR$/exercise" />
+    <configuration name="userReducer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="userReducer.js" working-dir="$PROJECT_DIR$/exercise/src/components/logIn" />
+    <list>
+      <item itemvalue="Node.js.testSetup.js" />
+      <item itemvalue="Node.js.userReducer.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.userReducer.js" />
+        <item itemvalue="Node.js.testSetup.js" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
