@@ -1,8 +1,5 @@
-import React, { Component } from 'react';
-import Link from 'react-router-dom/es/Link';
+import React from 'react';
 import UserItem from './logIn/userItem';
-import * as Rx from 'rxjs/Rx';
-//import { browserHistory } from 'react-router';
 
 export default class UserDatail extends React.Component {
 
@@ -10,7 +7,6 @@ export default class UserDatail extends React.Component {
 		super(props)
         this.state = {
             componentDidMount() {
-                debugger;
                 // const { match: { params } } = this.props;
                 const props = this.props;
                 console.log(props);
@@ -30,7 +26,6 @@ export default class UserDatail extends React.Component {
 
 
 	render() {
-		debugger;
         const { user } = this.state;
 		return (
 			<div className="App">
