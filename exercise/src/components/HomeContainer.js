@@ -3,10 +3,6 @@ import  UserActions   from './logIn/userActions';
 import HomeContent from "./HomeContent";
 
 const mapStateToProps = store => ({
-   ffffffffffff: 88,
-    a: function () {
-        return 'xxx'
-    },
     usersStore: store.userReducer
 });
 

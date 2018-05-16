@@ -1,19 +1,18 @@
 import { connect } from 'react-redux';
 import  UserActions   from './logIn/userActions';
-import TopBar from "./TopBar";
+import UserDatail from "./UserDatail";
 
 const mapStateToProps = store => ({
     usersStore: store.userReducer
 });
 
 const mapDispatchToProps = dispatch => ({
-    login : (data) => dispatch(UserActions.userLoogedIn(data)),
-    logout : () => dispatch(UserActions.userLogedOut())
+    getUsersFromContainer : () => dispatch(UserActions.getUsers())
 });
 
-const TopbarContainer = connect(
+const UserDatailContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(TopBar);
+)(UserDatail);
 
-export default TopbarContainer;
+export default UserDatailContainer;

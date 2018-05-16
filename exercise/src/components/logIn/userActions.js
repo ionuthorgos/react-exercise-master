@@ -2,11 +2,8 @@ import axios from "axios"; //https://medium.com/codingthesmartway-com-blog/getti
 import thunk from "redux-thunk";
 
 export  class UserActions {
-
     constructor () {
-
     }
-
     userLoogedIn = (userData) => (dispatch) => {
         const storeData = {
             type: "USER_LOGGED_IN",
@@ -14,14 +11,12 @@ export  class UserActions {
         };
         dispatch(storeData);
     }
-
     userLogedOut = () => (dispatch) => {
         const storeData = {
             type: "USER_LOGGED_OUT",
         };
         dispatch(storeData);
     }
-
 
     getTestUsers()
     {
@@ -50,7 +45,6 @@ export  class UserActions {
         return axios.get("http://rest.learncode.academy/api/wstern/users");
 
     };
-
 }
 
 export default new UserActions();

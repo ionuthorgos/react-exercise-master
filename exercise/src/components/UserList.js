@@ -93,9 +93,5 @@ class UserList extends React.Component {
     }
 }
 
-// UserList.propTypes = {
-//     // getUsersFromContainer: PropTypes.func.isRequired,
-//     userlist: PropTypes.Array.isRequired
-// };
 
 export default UserList;

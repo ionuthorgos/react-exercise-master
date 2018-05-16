@@ -1,0 +1,14 @@
+.user-item {
+  color: red;
+  background-color: aqua;
+  .user-edit{
+    display: none;
+  }
+
+  &.over{
+    color: red;
+    .user-edit{
+      display: inline-block;
+    }
+  }
+}

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74adf71-96ff-4e63-974f-fecd02b7eb05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise/src/components/UserDatail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/src/components/UserDatailContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/src/components/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/HomeContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/components/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/components/TopBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/TopBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/components/UserDatail.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/UserDatail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/components/UserList.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/UserList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/components/logIn/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/logIn/userActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise/src/components/logIn/userItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/logIn/userItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/src/components/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/UserList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/src/routes/EditFields.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/src/routes/EditUsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/components/topbarContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/components/topbarContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise/src/routes/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/routes/Home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,13 +28,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userItem.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/userItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="325">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#166#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/user-styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise/src/components/TopBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise/src/components/HomeContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDatailContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise/src/components/UserDatailContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,40 +90,7 @@
         <entry file="file://$PROJECT_DIR$/exercise/src/components/UserDatail.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/src/components/UserList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/src/routes/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -82,31 +98,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Landing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/src/routes/Landing.js">
+      <file leaf-file-name="UserList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise/src/components/UserList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="595">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-66">
-                <caret line="2030" column="3" lean-forward="true" selection-start-line="2030" selection-start-column="3" selection-end-line="2030" selection-end-column="3" />
-                <folding>
-                  <element signature="e#0#26#0" expanded="true" />
-                  <element signature="e#0#28#0" expanded="true" />
-                  <element signature="e#0#28#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -116,6 +115,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -128,8 +128,11 @@
       <find>compo</find>
       <find>&lt;top</find>
       <find>UserDa</find>
-      <find>Route</find>
       <find>&lt;Route</find>
+      <find>App</find>
+      <find>Route</find>
+      <find>loaders</find>
+      <find>map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,27 +158,33 @@
         <option value="$PROJECT_DIR$/exercise/src/components/LogIn/userItem.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/LogIn/usersContainer.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/logIn/userReducer.js" />
-        <option value="$PROJECT_DIR$/exercise/src/components/topbarContainer.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/Button.js" />
-        <option value="$PROJECT_DIR$/exercise/src/components/HomeContainer.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/logIn/usersContainer.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/UsersData/UserDataAction.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/UsersData/UserData.js" />
-        <option value="$PROJECT_DIR$/exercise/src/components/logIn/userActions.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/users.js" />
-        <option value="$PROJECT_DIR$/exercise/src/components/TopBar.js" />
         <option value="$PROJECT_DIR$/exercise/src/routes/EditFields.js" />
         <option value="$PROJECT_DIR$/exercise/src/routes/EditUsers.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/Users-fields/UserListContainer.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/Users-fields/UserList.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/HomeContent.js" />
         <option value="$PROJECT_DIR$/exercise/src/components/UsersList.js" />
-        <option value="$PROJECT_DIR$/exercise/src/components/UserList.js" />
         <option value="$PROJECT_DIR$/exercise/src/routes/UserDatail.js" />
         <option value="$PROJECT_DIR$/exercise/src/routes/Home.js" />
         <option value="$PROJECT_DIR$/exercise/src/index.js" />
-        <option value="$PROJECT_DIR$/exercise/src/components/UserDatail.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/logIn/usertItem.scss.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/UserDetailContainer" />
+        <option value="$PROJECT_DIR$/exercise/src/components/logIn/UserDetailContainer.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/logIn/userActions.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/HomeContainer.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/topbarContainer.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/TopBar.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/logIn/item-colors.scss" />
+        <option value="$PROJECT_DIR$/exercise/src/components/logIn/user-styles.scss" />
         <option value="$PROJECT_DIR$/exercise/src/components/logIn/userItem.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/UserDatailContainer.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/UserDatail.js" />
+        <option value="$PROJECT_DIR$/exercise/src/components/UserList.js" />
       </list>
     </option>
   </component>
@@ -194,9 +203,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="980" />
+    <option name="x" value="707" />
+    <option name="width" value="1214" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -286,17 +294,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
-              <item name="eslint-plugin-import" type="cbb8eebc:String" user="eslint-plugin-import" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
-              <item name="eslint-plugin-import" type="cbb8eebc:String" user="eslint-plugin-import" />
-              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,6 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bestdeveloper/app_money" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -373,17 +371,18 @@
       <workItem from="1526286493534" duration="2000" />
       <workItem from="1526286709550" duration="9000" />
       <workItem from="1526286735228" duration="47797000" />
+      <workItem from="1526396504837" duration="24515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90179000" />
+    <option name="totallyTimeSpent" value="114694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13152677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17052214" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32842416" />
@@ -410,13 +409,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/README.md" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/Button.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Landing.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/HomeContent.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/routes/Home.js" />
-    <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/LogIn.js" />
     <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/TopBar.js" />
     <entry file="file://$PROJECT_DIR$/react-exercise-master/exercise/src/components/LogIn/SingUp.js" />
     <entry file="file://$PROJECT_DIR$/exercise/src/.eslintrc" />
@@ -452,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise/src/components/HelloWorld.spec.js" />
     <entry file="file://$PROJECT_DIR$/exercise/src/redurcers/reduxClient.js" />
     <entry file="file://$PROJECT_DIR$/../../node_modules/redux/index.d.ts">
@@ -475,16 +460,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/usersContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/UsersData/UserDataAction.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/usersContainer.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/UsersData/UserDataAction.js" />
     <entry file="file://$PROJECT_DIR$/exercise/node_modules/jsdom/lib/jsdom/level3/xpath.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="898">
@@ -492,17 +469,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/userActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/UsersData/UserData.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/Users-fields/UserListContainer.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/Users-fields/UserList.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/routes/EditFields.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/src/routes/UserDatail.js" />
+    <entry file="file://$PROJECT_DIR$/exercise/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34510">
+            <caret line="2030" column="3" selection-start-line="2030" selection-start-column="3" selection-end-line="2030" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/UsersData/UserData.js">
+    <entry file="file://$PROJECT_DIR$/exercise/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="467">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/routes/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/usertItem.scss.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/item-color">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/UserDetailContainer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/UserDetailContainer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/userActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/HomeContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/topbarContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/routes/Landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -523,108 +571,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/Users-fields/UserListContainer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/Users-fields/UserList.js">
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/TopBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="357">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/routes/EditFields.js">
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/item-colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="12" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/routes/UserDatail.js">
+    <entry file="file://$PROJECT_DIR$/exercise/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        <state relative-caret-position="226">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/userItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#166#234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise/src/components/HomeContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="66" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/TopBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/HomeContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/topbarContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/routes/Landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-66">
-            <caret line="2030" column="3" lean-forward="true" selection-start-line="2030" selection-start-column="3" selection-end-line="2030" selection-end-column="3" />
-            <folding>
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/routes/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,27 +619,37 @@
     <entry file="file://$PROJECT_DIR$/exercise/src/components/UserDatail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/UserDatailContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise/src/components/UserList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        <state relative-caret-position="595">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/userItem.js">
+    <entry file="file://$PROJECT_DIR$/exercise/src/components/logIn/user-styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>

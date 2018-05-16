@@ -8,6 +8,11 @@ const color={
         color: 'black',
         fontSize: '25px',
         background: 'hsl(0, 0%, 86%)',
+        borderRadius: '30px'
+    },
+    user:{
+        color: 'black',
+        fontSize: '20px'
     }
 }
 
@@ -74,10 +79,8 @@ export default class TopBar extends Component {
 
 
                     <span style={{...color.userStyle, ...this.props.style}}>
-                        {initials}
+                        <span style={{...color.user, ...this.props.style}}> {initials}</span>
                     </span>
-
-
                   <Button style={{backgroundColor: 'red', color: 'white'}} click={this.logout}>Logout</Button>
               </div>
               }

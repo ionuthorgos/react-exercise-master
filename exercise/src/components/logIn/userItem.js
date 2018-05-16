@@ -1,38 +1,53 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import UserDatail from "../UserDatail";
-import Link from "react-router-dom/es/Link";
+import Link from 'react-router-dom/es/Link';
+//import { bootstrap, interfaces } from "redux-bootstrap";
+import {
+    ListGroup,
+    ListGroupItem,
+} from 'react-bootstrap';
+//import 'item-colors.scss';
 
+import './user-styles.scss';
 
 class UserItem extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            user: props
-        };
-    };
+	constructor(props) {
+		super(props);
+		this.state = {
+			user: props
+		};
+	}
     createItem = (item) => {
-        return ;
+        
     };
-    clickEvent = () => {
-        return <UserDatail/>;
-    }
     render() {
-        const { user } = this.state;
-       // debugger;
-        return (
+    	const { user } = this.state;
 
-            <div>
-                <li key={user.userName.title}>First Name: <b>{user.userName.first}</b> <br />Last Name: <b>{user.userName.last}</b>
-                    <Link to={`/users/${user.id}`}>go</Link>
-                </li>
+    	// debugger;
+    	return (
 
-                {/*<div>*/}
-                {/*<button onClick={this.getUsers}>get Users</button>*/}
-                {/*</div>*/}
-            </div>
-        )
+    		<div className='user-item'>
+                {/*<ListGroup>*/}
+					{/*<ListGroupItem style={{backgroundColor: '#00FFFF'}}>*/}
+						{/*<Link style = {{color: 'black',textDecoration: 'none'*/}
+                        {/*}} to={`/users/${user.id}`} >*/}
+							{/*<li  key={user.userName.title}>First Name: <b>{user.userName.first} </b>Last Name: <b>{user.userName.last}</b>*/}
+								{/*</li>*/}
+						{/*</Link>*/}
+					{/*</ListGroupItem>*/}
+				{/*</ListGroup>*/}
+				First Name: <b>{user.userName.first} </b>
+                Last Name: <b>{user.userName.last}</b>
+
+                <Link style={{textDecoration: 'none'}}
+					class={'user-edit'}
+					to={`/users/${user.id}`} > Edit</Link>
+
+    		</div>
+    	);
     }
 }
+
+
 
 export default UserItem;
