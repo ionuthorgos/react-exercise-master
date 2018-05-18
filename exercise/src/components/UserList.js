@@ -2,15 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import UserActions from './logIn/userActions';
 import UserItem from './logIn/userItem';
-// import { Rx } from "rxjs";
-import * as Rx from 'rxjs/Rx';
 
 class UserList extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			Users: this.props.users,
-
 		};
 		this.getUsers = this.getUsers.bind(this);
 		this.setUsers = this.setUsers.bind(this);
@@ -53,18 +50,6 @@ class UserList extends React.Component {
     			console.log('EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE');
     		});
     };
-
-    getUsersObservable = () => {
-    	const result = Rx.Observable.fromPromise(UserActions.getUsersPromise());
-    	result.subscribe(
-    		(x) => {
-    			console.log(x);
-    			this.setUsers(x);
-    		},
-    		e => console.error(e)
-    	);
-    };
-
 
     createItem = item => <li key={item.id}>{item.name}</li>;
     render() {
