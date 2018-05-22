@@ -17,7 +17,7 @@ export class UserActions {
     	};
     	dispatch(storeData);
     }
-		editName = () => (dispatch) => {
+		editName = (e) => (dispatch) => {
 			const storeData = {
 					type: ' SET_FILTER'
 			}
