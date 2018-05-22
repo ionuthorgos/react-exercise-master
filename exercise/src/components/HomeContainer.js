@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import  UserActions   from './logIn/userActions';
-import HomeContent from "./HomeContent";
+import UserActions from './logIn/userActions';
+import HomeContent from './HomeContent';
 
 const mapStateToProps = store => ({
     usersStore: store.userReducer
@@ -17,4 +17,4 @@ const HomeContainer  = connect(
     mapDispatchToProps
 )(HomeContent);
 
-export default HomeContainer ;
+export default HomeContainer;

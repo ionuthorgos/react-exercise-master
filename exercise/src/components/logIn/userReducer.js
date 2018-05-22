@@ -14,14 +14,24 @@ function userReducer(state = initialState, action) {
             return {
                 ...state,
                 loggedUser: null
-            }
-        case 'USER_LOGGED_IN':{
+            };
+        case 'USER_LOGGED_IN':
             return {
                 ...state,
                 loggedUser: action.data
-            }
-        }
+            };
+         case 'SET_FILTER':
+             return {
+                 ...state,
+                 userForEdit: action.filter
+						 }
+        case 'USER_UPDATED': {
+            return {
+                ...state,
+                userUpdated: action.data
 
+						}
+				}
         default:
             return state;
     }
