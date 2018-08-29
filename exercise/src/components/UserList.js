@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import UserActions from './logIn/userActions';
 import UserItem from './logIn/userItem';
 
@@ -58,20 +57,23 @@ class UserList extends React.Component {
     		<div>
     			<h2>Users</h2>
     			<div>
-    				<button onClick={this.props.getUsersFromContainer}>get Users</button>
+    				<button onClick={this.props.getUsersFromContainer} >get Users</button>
+
     			</div>
     			{users &&
-                <ul>
-                	{
-                		users.map((item, index) => (
-                			<UserItem
-                  key={index}
-                  id={item.id.value}
-                				userName={item.name}
-                			/>
-                		))
-                	}
-                </ul>
+                <table className="table-bordered">
+					{
+							users.map((item, index) => (
+								<UserItem
+								key={index}
+													id={item.id.value}
+									userName={item.name}
+								/>
+							))
+						}
+
+
+                </table>
     			}
     		</div>
     	);

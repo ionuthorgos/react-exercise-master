@@ -26,9 +26,11 @@ function userReducer(state = initialState, action) {
                  userForEdit: action.filter
 						 }
         case 'USER_UPDATED': {
+            debugger;
             return {
                 ...state,
-                userUpdated: action.data
+                users: state.users
+                    [action.data]
 
 						}
 				}

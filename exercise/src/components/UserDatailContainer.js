@@ -8,8 +8,7 @@ const mapStateToProps = store => ({
 
 const mapDispatchToProps = dispatch => ({
 	getUsersFromContainer : () => dispatch(UserActions.getUsers()),
-		saveUser : () => dispatch(UserActions.getUsers()),
-		update : () => dispatch(UserActions.update())
+		saveUser : (user) => dispatch(UserActions.update(user))
 });
 
 const UserDatailContainer = connect(

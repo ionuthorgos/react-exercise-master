@@ -16,16 +16,23 @@ export class UserActions {
     		type: 'USER_LOGGED_OUT',
     	};
     	dispatch(storeData);
-    }
+    };
 		editName = (e) => (dispatch) => {
 			const storeData = {
 					type: ' SET_FILTER'
 			}
 			dispatch(storeData);
-		}
-		update = user => (dispatch) => {
-			const storeData = {
-			type:'USER_UPDATED',
+		};
+		update = user => (dispatch, getState) => {
+
+		// const store = getState();
+		// console.log(store);
+		// const {users} = store.userReducer;
+            // const users = store.userReducer.users;
+
+
+            const storeData = {
+			type:'USER_UPDATED', data: user
 		};
 		dispatch(storeData);
 	}
